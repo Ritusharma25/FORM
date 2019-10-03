@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+border:50px solid lightblue;
+}
+</style>
+
+<body>
+<h2 style="text-align:center;">Survey Form</h2>
+<h4 style="text-align:center;">let us know how we can improve freeCodeCamp</h4>
+
+<form  style="text-align:center;">
+Name:  <input type="text" maxlength="20" placeholder="enter your fullname"><br>
+Email:  <input type="email" name="email"  placeholder="enter your email"><br>
+Age:  <input type="number" maxlength="2" name="age" placeholder="age" value="Age" min="12" max="60">
+<br>
+<br>
+
+<p>
+which option best describes your current role?<br>
+<select name="occupation">
+<option value="student">student</option>
+<option value="university">university</option>
+<option value="job">job</option>
+</select>
+<br>
+<br>
+
+how likely is that you would recommmend freeCodeCAmp to a friend?
+<br>
+<input type="radio" name="suggestion" value="Defintely">Defintely<br>
+<input type="radio" name="suggestion" value="Maybe">Maybe<br>
+<input type="radio" name="suggestion" value="Not sure">Not sure<br>
+</p>
+<br>
+<br>
+
+<p style="text-align:center;">
+What do you like most in FCC:<br>
+<select name="category">
+<option value="developer">developer</option>
+<option value="tester">tester</option>
+<option value="database">database</option>
+</select>
+</p>
+<br>
+<br>
+
+<p style="text-align:center;">
+Things that should be improved in the future(check all that apply):
+<br>
+<form  style="text-align:center;">
+<input type="radio" name="improvement" value="Front-end Projects">Front-end Projects<br>
+<input type="radio" name="improvement" value="back-end Projects">back-end Projects<br>
+<input type="radio" name="improvement" value="Data Visualization">Data Visualization
+</p>
+<input type="submit" value="submit">
+
+</form>
+</body>
+</html>
